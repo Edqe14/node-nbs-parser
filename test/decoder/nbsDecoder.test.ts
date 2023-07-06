@@ -48,7 +48,7 @@ describe("Gravity Falls Theme", () => {
     const note = notesIterator.next().value as Note;
 
     expect(note.instrument.id).toBe(4);
-    expect(note.noteLevel).toBe(6);
+    expect(note.noteLevel).toBe(39);
     expect(note.velocity).toBeUndefined();
     expect(note.panning).toBeUndefined();
     expect(note.pitch).toBeUndefined();
@@ -98,7 +98,7 @@ describe("You're Welcome", () => {
     const note = notesIterator.next().value as Note;
 
     expect(note.instrument.id).toBe(0);
-    expect(note.noteLevel).toBe(-33);
+    expect(note.noteLevel).toBe(0);
     expect(note.velocity).toBe(0);
     expect(note.panning).toBe(3);
     expect(note.pitch).toBe(256);
